@@ -21,6 +21,7 @@ h2 {
 
 .Tittel {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
     display: flex;
     justify-content: center;
     animation-name: colorshift;
@@ -61,6 +62,7 @@ button:hover {
     transition: 0.3s;
     cursor: pointer;
     border-radius: 10px;
+    width: 300px;
 }
 
 .bilder img {
