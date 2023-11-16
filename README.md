@@ -11,3 +11,9 @@ Main Page Updated:
 -Added box shadow
 <br>
 -Added hover animations on image cards
+<br>
+<br>
+Updated Photo Source:
+<br>
+-Updated photo source from local pc to github folder
+<br>
