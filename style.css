@@ -1,6 +1,14 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(230, 218, 207);
     height: 100%;
+}
+
+h2 {
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 10px;
 }
 
 
@@ -11,7 +19,8 @@ body {
 }
 */
 
-#Tittel {
+.Tittel {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     animation-name: colorshift;
@@ -20,18 +29,49 @@ body {
     animation-direction: alternate;
 }
 
-div {
-    height: 100%;
-    position: relative;
+
+button {
+    font: inherit;
+    background-color: rgba(160, 194, 255, 1);
+    padding: 5%;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-#bilder {
+
+button:hover {
+    background-color: rgb(100, 138, 209);
+    transition: .3s ease all;
+}
+
+.bilde-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20%;
+    flex-wrap: wrap;
+    gap: 5em;
+    padding: 20px;
+    margin: 100px auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bilder {
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.bilder img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
     
+}
+
+.bilder:hover {
+    transform: scale(1.1);
+    z-index: 1;
 }
