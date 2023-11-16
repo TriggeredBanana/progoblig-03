@@ -21,13 +21,14 @@ h2 {
 
 .Tittel {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2vw;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     animation-name: colorshift;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    color: rgb(129, 109, 90);
 }
 
 
@@ -69,11 +70,21 @@ button:hover {
     display: block;
     width: 100%;
     border-radius: 5px;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .bilder:hover {
     transform: scale(1.1);
     z-index: 1;
+}
+
+.profilbilde {
+    display: flex;
+    justify-content: center;
+}
+
+.profilbilde-daniel {
+    margin-top: 100px; 
+    border-radius: 10%;
+
 }

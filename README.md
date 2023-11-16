@@ -17,3 +17,12 @@ Updated Photo Source:
 <br>
 -Updated photo source from local pc to github folder
 <br>
+<br>
+Profile Creation:
+<br>
+-Added new profile page (Daniel)
+<br>
+-Made the "Daniel" image card link to the profile page (Daniel)
+<br>
+-Added a profile image
+<br>
