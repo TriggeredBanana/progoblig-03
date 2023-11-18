@@ -26,3 +26,8 @@ Profile Creation:
 <br>
 -Added a profile image
 <br>
+<br>
+Updated Colors:
+<br>
+-Changed profile colors from blue to pink-ish hue
+<br>
