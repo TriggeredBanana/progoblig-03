@@ -31,3 +31,12 @@ Updated Colors:
 <br>
 -Changed profile colors from blue to pink-ish hue
 <br>
+<br>
+Updated Profile Page:
+<br>
+-Updated profile image design
+<br>
+-Changed text position
+<br>
+-Added a box containing a temporary bio
+<br>
