@@ -32,7 +32,7 @@ Updated Colors:
 -Changed profile colors from blue to pink-ish hue
 <br>
 <br>
-Updated Profile Page:
+Profile Page Updated:
 <br>
 -Updated profile image design
 <br>
