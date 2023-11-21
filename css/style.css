@@ -3,6 +3,27 @@ body {
     background-color: rgb(230, 218, 207);
 }
 
+/* Endrer design og plassering av tittel på toppen av alle sider som bruker samme klasse */
+.Tittel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    animation-name: colorshift;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: rgb(129, 109, 90);
+}
+
+/* Justerer overskrift over gruppemedlem på hovedsiden */
+.hovedside-profiler {
+    color: rgb(129, 109, 90);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
 /* Endrer tekst som bruker "h2-taggen" */
 h2 {
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
@@ -20,18 +41,6 @@ h2 {
 }
 */
 
-/* Endrer design og plassering av tittel på toppen av alle sider som bruker samme klasse */
-.Tittel {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    animation-name: colorshift;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    color: rgb(129, 109, 90);
-}
 
 /* Koden under gjelder generelt for alle knapper. */
 button {
@@ -56,7 +65,10 @@ button:hover {
     flex-wrap: wrap;
     gap: 5em;
     padding: 20px;
-    margin: 100px auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: row;
     justify-content: center;
 }
@@ -98,7 +110,13 @@ button:hover {
     padding: 10px;
 }
 
-/* Lager en boks rundt tekst + redigerer teksten */
+/* Tittel mellom profilbilde og bio */
+.profil-tittel {
+    text-align: center;
+    color: rgba(129, 109, 90, 1);
+}
+
+/* Lager en boks rundt bio + redigerer teksten */
 .beskrivelse-daniel {
     background-color: rgba(129, 109, 90, 0.8);
     text-align: center;
@@ -109,10 +127,4 @@ button:hover {
     padding-right: 30px;
     border-radius: 20px;
     color: rgb(240, 233, 227);
-}
-
-/* Tittel mellom profilbilde og bio */
-.profil-tittel {
-    text-align: center;
-    color: rgba(129, 109, 90, 1);
 }

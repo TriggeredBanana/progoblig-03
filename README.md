@@ -40,3 +40,8 @@ Profile Page Updated:
 <br>
 -Added a box containing a temporary bio
 <br>
+<br>
+Page Refresh
+<br>
+-Minor updates on homepage
+<br>
